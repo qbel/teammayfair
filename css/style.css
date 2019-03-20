@@ -324,7 +324,21 @@ h2 {
     height: 50vh;
 }
 #shift{
-  margin-top:50px;
-  margin-bottom:50px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#contact{
+  background-image: url('../img/cover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  position: relative;
+  text-align: center;
+}
+#if{
+  color:white;
+  top:40%;
+  font-weight: bolder;
 }
 }
