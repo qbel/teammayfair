@@ -11,8 +11,9 @@
 }
 .nav-link:hover {
   transition: .4s;
-  background-color:rgb(250, 178, 7);
-  padding-left:10px ;
+  /* background-color:rgb(250, 178, 7); */
+  padding-left:10px;
+  border-bottom: 2px solid #FAB207;
   /* color: black */
   }
   .carousel-caption {
@@ -37,15 +38,10 @@
     /* padding-top:0px; */
  }
  #ok{
-   font-size:55px;
+   font-size:60px;
    color: #fff;
    text-align: center;
  }
- #we{
-  font-size:20px;
-  color: #fff;
-  /* text-align: center; */
-}
  #text{
   color:white;
   text-align:center;
@@ -66,7 +62,7 @@
   left:40px;
 } */
 .carousel-indicators li {
-  background-color: rgb(250, 178, 7);
+  background-color: #FAB207;
   /* font-size:20px; */
 }
 .carousel-indicators .active {
@@ -112,51 +108,11 @@ h2 {
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #495057;
-  background-color:rgb(250, 178, 7);
+  background-color:#FAB207;
   border-color: #dee2e6 #dee2e6 #fff;
 }
-/* .ml2 {
-  font-weight: 900;
-  font-size: 3.5em;
-  text-align: center;
-  color: white;
-  padding-top:10%;
-  padding-bottom: 5px;
-}
-
-.ml2 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
-#viewing{
-  background-image: url('../img/pic.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 500px;
-  position: relative;
-  text-align: center;
-}
-.viewing-overlay{
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  left:0;
-  right: 0;
-  background-color:rgb(241, 179, 32);
-  opacity: 0.5;
-  /* text-align: center; */
-/* } */
-/* .femi{
-  z-index: 10;
-  position: relative;
-}  */
-#gen{
-  margin-top: 25%;
-  /* left: 5%; */
+.nav-tabs .nav-link {
+  border: none !important;
 }
 #viewing{
   background-image: url('../img/pic.jpg');
@@ -175,12 +131,93 @@ h2 {
   transition: .4s;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+} */
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* h1 {
+  font-size: 50px;
+  word-break: break-all;
+} */
+
+.row {
+  margin: 0px 0px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #FAB207;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #FAB207;
+  color:black;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #FAB207;
+   color: white;
+}
+.nav-tabs {
+  border-bottom: none !important;
+}
+
 @media only screen and ( max-width: 1024px )
 {
   .nav-link:hover {
     transition: .4s;
-    background-color:rgb(250,178,7);
+    /* background-color:#FAB207; */
     padding-left:10px;
+    border-bottom: 2px solid #FAB207;
   }
   .nav a{
     font-size:10px;
@@ -195,7 +232,7 @@ h2 {
       -webkit-box-orient: vertical;
   }
   #ok{
-    font-size:20px;
+    font-size:21px;
     color: #fff;
     padding-top:10px;
     text-align: center;
@@ -223,9 +260,31 @@ h2 {
     margin-top:0px;
   }
   #fone{
-    font-size:10px
+    font-size:13px;
+    text-align:center;
   }
   #we{
-    font-size:10px
+    font-size:13px
   }
+  #you{
+    font-size:13px;
+    /* text-align: center; */
+  }
+  #slick{
+    text-align: center;
+    font-size:27px;
+  }
+  #interior{
+    text-align: center;
+    font-size:27px;
+  }
+  #hospital{
+    text-align: center;
+    font-size:27px;
+  }
+  
+  .img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header, .video-fluid {
+    max-width: 100%;
+    height: 50vh;
+}
 }
