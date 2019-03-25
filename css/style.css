@@ -240,10 +240,35 @@ h2 {
 #shift{
   margin-top:10px;
 }
+/* #note{
+  margin-left:30%;
+} */
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* width: 60px; */
+} 
 
-
-
-
+.menu li a {
+  display: block;
+}
+#whether{
+  font-size:14px;
+  font-family:Roboto, sans-serif;
+  font-weight:400;
+  line-height:24px;
+  /* color:#4f4f4f; */
+}
+#approach{
+  font-family:Roboto, sans-serif;
+  font-weight:500;
+  line-height:24px;
+}
+#awww{
+  padding-left:65px;
+}
+#more {display: none;}
 
 
 
@@ -340,5 +365,21 @@ h2 {
   color:white;
   top:40%;
   font-weight: bolder;
+}
+#note{
+  margin-left:0;
+}
+#whether{
+  font-size:13px;
+}
+#awww{
+  padding-left: 0px;
+}
+#h5{
+  font-size:11px;
+}
+.img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header, .video-fluid {
+  max-width: 100%;
+  height: 40vh;
 }
 }
